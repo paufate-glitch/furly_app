@@ -163,7 +163,6 @@ function getWhyMatch(pet, answers) {
   if (pet.name === "Richie") return "Richie is young and energetic — perfect for someone ready for adventure!";
   if (pet.name === "Ash")    return "Ash's independent yet warm personality suits your lifestyle perfectly.";
   if (pet.name === "Gloria") return vals.includes("Low/Relaxed") ? "Gloria loves quiet spaces — just like you!" : "Gloria's gentle feline grace will bring calm to your home.";
-  if (pet.name === "Lucky")  return "Lucky is a resilient little survivor who deserves all the love you can give!";
   return `${pet.name} is a wonderful match for your lifestyle and personality!`;
 }
 
@@ -301,12 +300,6 @@ const DEFAULT_PETS = [
     photo: gloriaImg, color:"#FFD166",
     description:"Gloria is a beautiful tabby and white cat with a relaxed, easygoing personality. She loves lounging in warm spots and being gently stroked by the people she trusts."
   },
-  {
-    id:13, name:"Lucky", species:"cat", age:"Young adult", gender:"Male", breed:"Domestic Shorthair",
-    personalities:["Resilient","Playful","Brave"], healthStatus:"Under treatment",
-    photo: luckyImg, color:"#A8E6D4",
-    description:"Lucky was rescued in March 2025 and is still settling in. Despite a tough start, this little survivor is full of spirit and curiosity, and deserves every bit of love."
-  },
 ];
 
 const DEFAULT_DONATIONS = [
@@ -385,7 +378,6 @@ const TIMELINE = [
   { year:"2018", event:"Current caretaker joined the shelter. Facilities were still basic — bamboo fences and tarpaulin structures. First long-term residents Rupert and Glory were rescued this year." },
   { year:"2020–21", event:"Muffin and Mina rescued in 2020; Lally in 2021. Shelter grew steadily through community support and social media awareness." },
   { year:"2022–23", event:"Esenar, Richie, Peach, and Lily rescued. Digital record-keeping introduced for adoptions and donations." },
-  { year:"2025", event:"Lucky rescued in March 2025. Shelter currently cares for 13 animals across dogs and cats, with active adoption drives ongoing." },
 ];
 
 const ACHIEVEMENTS = [
