@@ -9,7 +9,6 @@ import gloriaImg   from "./assets/Gloria(cat).jpg";
 import gloryImg    from "./assets/Glory.jpg";
 import lallyImg    from "./assets/Lally.jpg";
 import lilyImg     from "./assets/Lily.jpg";
-import luckyImg    from "./assets/Lucky(cat).png";
 import minaImg     from "./assets/Mina.jpg";
 
 import { useState, useEffect, useRef, useCallback } from "react";
